@@ -2,7 +2,7 @@
     {
       "_id": "6027d397244bff5bfa993ea4",
       "index": 0,
-      "fee": "2,241.93",
+      "fee": 2241.93,
       "picture": "https://images.unsplash.com/photo-1600695268275-1a6468700bd5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGh0bWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "instructorName": "Franco Curtis",
       "course": "Ruby",
@@ -13,7 +13,7 @@
     {
       "_id": "6027d39752dc92d5dd74b25f",
       "index": 1,
-      "fee": "3,694.25",
+      "fee": 3694.25,
       "picture": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8YyUyMHByb2dyYW1taW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "instructorName": "Oconnor Kirby",
       "course": "C programming",
@@ -24,7 +24,7 @@
     {
       "_id": "6027d39761ed110650bbb8f4",
       "index": 2,
-      "fee": "1,198.76",
+      "fee": 1198.76,
       "picture": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fHR5cGVzY3JpcHQlMjBwcm9ncmFtbWluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "instructorName": "Dominguez Shaw",
       "course": "Typescript",
@@ -35,7 +35,7 @@
     {
       "_id": "6027d397837cae61ba46cb2b",
       "index": 3,
-      "fee": "2,065.05",
+      "fee": 2065.05,
       "picture": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8YW5kcm9pZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "instructorName": "Fannie Finley",
       "course": "Android",
@@ -46,7 +46,7 @@
     {
       "_id": "6027d39778ad07576db56bcf",
       "index": 4,
-      "fee": "1,578.29",
+      "fee": 1578.29,
       "picture": "https://images.unsplash.com/photo-1583484963886-cfe2bff2945f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzV8fGphdmFzY3JpcHR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "instructorName": "Aimee Ashley",
       "course": "Javascript",
@@ -57,7 +57,7 @@
     {
       "_id": "6027d397686988a8ca1e7b0c",
       "index": 5,
-      "fee": "3,641.76",
+      "fee": 3641.76,
       "picture": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjR8fGphdmF8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "instructorName": "Ashley Robles",
       "course": "Java",
@@ -68,7 +68,7 @@
     {
       "_id": "6027d397e332d3c8f7d14ab8",
       "index": 6,
-      "fee": "3,575.67",
+      "fee": 3575.67,
       "picture": "https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fGphdmElMjBwcm9ncmFtbWluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "instructorName": "Janet Sargent",
       "course": "Java OOP",
@@ -79,7 +79,7 @@
     {
       "_id": "6027d39728cce37864f7e05e",
       "index": 7,
-      "fee": "1,757.84",
+      "fee": 1757.84,
       "picture": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8c2NhbGElMjBwcm9ncmFtbWluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "instructorName": "Stephanie Huff",
       "course": "Scala",
@@ -90,7 +90,7 @@
     {
       "_id": "6027d397a3f83d0e9ef02ffa",
       "index": 8,
-      "fee": "3,576.89",
+      "fee": 3576.89,
       "picture": "https://images.unsplash.com/photo-1558717738-0b9fbb9b0b21?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fGphdmElMjBwcm9ncmFtbWluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "instructorName": "Catalina Maldonado",
       "course": "Rust",
@@ -101,7 +101,7 @@
     {
       "_id": "6027d3972fcaddaa89b3b844",
       "index": 9,
-      "fee": "2,531.23",
+      "fee": 2531.23,
       "picture": "https://images.unsplash.com/photo-1553470861-71372491e886?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cHl0aG9ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "instructorName": "Perez Robinson",
       "course": "Kotlin",
@@ -112,7 +112,7 @@
     {
       "_id": "6027d39765cbe01ff03ba689",
       "index": 10,
-      "fee": "3,942.67",
+      "fee": 3942.67,
       "picture": "https://images.unsplash.com/photo-1588690154757-badf4644190f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8a290bGlufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "instructorName": "Chris Quinn",
       "course": "Swift",
@@ -123,7 +123,7 @@
     {
       "_id": "6027d3973fcd77f46c394963",
       "index": 11,
-      "fee": "1,849.99",
+      "fee":1849.99,
       "picture": "https://images.unsplash.com/photo-1556792189-55769c8dfbac?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhwfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "instructorName": "Rosanna Bradley",
       "course": "Php",
