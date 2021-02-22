@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import fakeData from "../../fakeData/data.json";
+import { addToDatabaseCart } from "../../utilities/databaseManager";
 import Cart from "../Cart/Cart";
 import Course from "../Course/Course";
 import "./Courses.css";
@@ -13,7 +14,10 @@ const Courses = () => {
 	const handleAddCourse = (course) => {
 		const newCourse = [...cart, course];
 		setCart(newCourse);
-		console.log("Course clicked", course);
+		// console.log("Course clicked", course);
+		const sameCourse = newCourse.filter((pd) => pd.id === course.id);
+		const count = sameCourse.length;
+		addToDatabaseCart(course.id, count);
 	};
 	return (
 		<div className="courses">
@@ -25,7 +29,12 @@ const Courses = () => {
 				</p>
 
 				{courses.map((course) => (
-					<Course course={course} handleAddCourse={handleAddCourse}></Course>
+					<Course
+						key={course.id}
+						showAddToCart={true}
+						course={course}
+						handleAddCourse={handleAddCourse}
+					></Course>
 				))}
 			</div>
 			<div className="cart-container">

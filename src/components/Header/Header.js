@@ -8,9 +8,9 @@ const Header = () => {
 				Course <span className="hub">Hub</span>
 			</h1>
 			<nav>
-				<a href="/home">Home</a>
 				<a href="/courses">Courses</a>
-				<a href="/about">About</a>
+				<a href="/review">Review</a>
+				<a href="/summary">Summary</a>
 			</nav>
 		</div>
 	);

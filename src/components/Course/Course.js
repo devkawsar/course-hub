@@ -6,27 +6,31 @@ import {
 	faShoppingCart,
 	faUserPlus,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Course = (props) => {
-	// console.log(props.course);
-	const { picture, course, fee, instructorName } = props.course;
+	// console.log(props);
+	const { picture, course, fee, instructorName, id } = props.course;
+	// console.log(id);
 	return (
 		<div className="course">
 			<h2>
 				<small>Learn </small>
-				{course}
+				<Link to={"/course/" + id}>{course}</Link>
 				<small> in 30 days</small>
 			</h2>
 			<img src={picture} alt="picture" />
 			<p>course instructor: {instructorName}</p>
 			<p>course fee: ${fee}</p>
-			<button
-				onClick={() => props.handleAddCourse(props.course)}
-				className="btn bg-primary"
-			>
-				<FontAwesomeIcon icon={faUserPlus} />
-				Enroll now
-			</button>
+			{props.showAddToCart && (
+				<button
+					onClick={() => props.handleAddCourse(props.course)}
+					className="btn bg-primary"
+				>
+					<FontAwesomeIcon icon={faUserPlus} />
+					Enroll now
+				</button>
+			)}
 		</div>
 	);
 };
